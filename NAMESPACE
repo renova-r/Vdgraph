@@ -1,4 +1,4 @@
-useDynLib(Vdgraph)
+useDynLib(Vdgraph, .registration = TRUE)
  
 importFrom("graphics", "abline", "legend", "lines", "par")
 
